@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+
+<html>
+    <head>
+       <title>Movie System</title>
+       <meta charset="utf-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1">
+       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+       
+       <link href="css/myStyles.css" rel="stylesheet" type="text/css"/>
+       <link href="css/font-awesome.css" rel="stylesheet" type="text/css"/>
+       <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+       <link href="css/footerStyle.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container-fluid">
+              <div class="navbar-header">
+                <a class="navbar-brand" href="#">Movie System</a>
+              </div>
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#">Browse Movies</a></li>
+                <li><a href="#">Search Movies</a></li>
+              </ul>
+            </div>
+        </nav>
+<header>
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+                <div >
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        
+                    </button>
+                        <a class="navbar-brand" href="home.php"><i class="fa fa-film"> </i></a>
+                    </div>
+                    
+                    <div id="navbar navbar-left" class="navbar-collapse collapse row">
+                        <div class="col-xs-12 col-sm-5 col-lg-5">
+                        <ul class="nav navbar-nav">
+                            <li class="active"><a href="#home.php"><span class="fa fa-home"
+                                 aria-hidden="true"></span> Home</a></li>
+                            <li><a href="#browse.php"><span class="fa fa-folder-o"
+                                 aria-hidden="true"></span> Browse Movies</a></li>
+                             <li><a href="#search.php"><i class="fa fa-search"></i> Search Movies</a></li>
+                        </ul>
+                        </div>
+                        
+                        <?php 
+                        
+                            header('location:  mslogin.php');
+                        ?>
+                        <div class="navbar-right col-xs-12 col-sm-7 col-lg-6">
+                            <form class="navbar-form navbar-right" role="form" method="post" action="mslogin.php">
+                                    <div class="form-group row">
+                                        <label class="sr-only" for="email">Email</label>
+                                        <div class="input-group col-xs-12 col-sm-3">
+                                            <input type="text" class="form-control" id="username" placeholder="User Name">
+                                        </div>
+
+                                        <label class="sr-only" for="password">Password</label>
+                                        <div class="input-group col-xs-12 col-sm-3">
+                                            <input type="text" class="form-control" id="password" placeholder="Password">
+                                        </div>
+                                        <div class="input-group button col-xs-12 col-sm-2">
+                                            <button type="submit" class="btn btn-primary btnSub">Submit</button>
+                                        </div>
+                                        <div class="input-group form-check col-xs-12 col-sm-3">
+                                            <a href="#createAccount.php" style="text-decoration: underline" > Create Account</a>
+                                        </div>
+
+                                        
+                                    </div>
+
+                                </form>
+                                </div>
+
+                        </div>
+                    </div>
+
+            </nav>     
+</header>        
+
+Main body
+<div class="container">
+    <br>
+    <div class="row"> row 
+            
+                <div class="col-lg-3 col-md-3"> widgets column left 
+                    <pre>
+                        
+
+
+
+
+
+                    </pre>
+                </div> widgets column left end 
+                
+                
+                
+                <div class="col-lg-3 col-md-3"> widgets column left 
+                    <pre>
+                        
+
+
+
+
+
+                    </pre>
+                </div> widgets column left end 
+                
+                
+                
+                <div class="col-lg-3 col-md-3"> widgets column left 
+                    <pre>
+                        
+
+
+
+
+
+                    </pre>
+                      
+                </div> widgets column left end 
+                
+                
+                <div class="col-lg-3 col-md-3"> widgets column center 
+                    <pre>
+                        
+
+
+
+
+
+                    </pre>
+                </div>
+                
+    </div>
+    <br>
+</div>
+
+
+footer
+<div class="footer-bottom">
+
+	<div class="container">
+
+		<div class="row">
+
+			<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+
+				<div class="copyright">
+
+					© 2016, Team121, All rights reserved
+
+				</div>
+
+			</div>
+
+			<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+
+				<div class="design">
+
+					 Developed By:- <a href="#">Aakib Vhora</a> |  <a target="_blank" href="#">Sreenivas Potukuchi</a> |  <a target="_blank" href="#">Sanjay Taneeru</a>
+
+				</div>
+
+			</div>
+
+		</div>
+
+	</div>
+
+</div>
+
+    </body>
+</html>
